@@ -3,7 +3,7 @@
 **Intentional test fixture for [Flagrix](https://flagrix.io) — a clean, benign library with no risky patterns.**
 
 This repository exists so you can try the Flagrix security scanner and see its
-**low-risk / "safe to clone"** verdict end to end. It is an ordinary little
+**low-risk** verdict end to end. It is an ordinary little
 utility library: pure string and array helpers, no dependencies, no network
 calls, no obfuscation, no secrets.
 
@@ -20,4 +20,4 @@ the Flagrix demo set, alongside
 | `src/chunk.js` | split an array into fixed-size chunks |
 | `src/clamp.js` | constrain a number to a range |
 
-**Expected verdict: LOW RISK — safe to clone** (no findings).
+**Expected verdict: LOW RISK — No blocking findings** (no findings).
